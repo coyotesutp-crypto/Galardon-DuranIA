@@ -7,6 +7,15 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+.sobrenosotros{
+    color: #f0efeb;
+    font-size: large;
+    list-style: none;
+}
+.bienvenido{
+    font-size: xx-large;
+}
+
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -66,12 +75,11 @@
 }
 
 :root {
-    --dark-green: #1a4d2e;
+    --dark-green: #4a3728;
     --cream: #fdfcf6;
     --gold: #d4a017;
     --text-brown: #4a3728;
 }
-
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -188,11 +196,38 @@ h1 { font-size: 4rem; margin: 0; }
 }
 
 .footer {
+
     background: var(--dark-green);
     color: white;
+background-repeat: no-repeat;
+background-position: center;
+    background-image: url(imagenes/footer.png);
+    background-size: cover;
+
     text-align: center;
-    padding: 2rem;
+    padding: 0;
     margin-top: auto;
+}
+.abajito{
+    background-color: #000000bb;
+    border-radius: 0;
+    padding: 50px;
+    margin: 0;
+}
+.logos-cont{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    gap: 40px;                 
+    flex-wrap: wrap;         
+    padding: 20px 0;
+}
+
+.footer-logo{
+    height: 60px;              
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.2s ease;
 }
 
 @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }

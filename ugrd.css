@@ -141,3 +141,42 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+.admin-table-container {
+    background: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.status-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.status-active { background: #e8f5e9; color: #2e7d32; }
+
+.action-btn {
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: 0.2s;
+}
+
+.action-btn:hover {
+    background: var(--gold);
+    color: white;
+    border-color: var(--gold);
+}
+
+.action-btn.danger:hover {
+    background: #d32f2f;
+    border-color: #d32f2f;
+}
